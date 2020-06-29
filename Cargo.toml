@@ -9,3 +9,5 @@ edition = "2018"
 [dependencies]
 tide = "0.11"
 async-std = { version = "1.6", features = ["attributes"] }
+juniper = "0.14.1"
+serde = { version = "1.0.102", features = ["derive"] }
